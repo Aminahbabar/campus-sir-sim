@@ -1,0 +1,11 @@
+run_id,description,beta,gamma,compliance,N,duration_sec,status,notes
+1,Baseline,0.2,0.07,0.7,1000,12.4,Complete,Standard baseline run
+2,Higher transmission,0.3,0.07,0.7,1000,12.7,Complete,Peak earlier and higher
+3,Lower transmission,0.12,0.07,0.7,1000,12.5,Complete,Flatter curve
+4,Faster recovery,0.2,0.12,0.7,1000,12.3,Complete,Infections clear faster
+5,Lower recovery,0.2,0.04,0.7,1000,12.9,Complete,Longer tail of infection
+6,Lower compliance,0.2,0.07,0.4,1000,12.5,Complete,More spread with lower masking
+7,Higher compliance,0.2,0.07,0.9,1000,12.2,Complete,Smaller peak
+8,Larger population,0.2,0.07,0.7,2000,24.8,Complete,Runtime scales with N
+9,Smaller population,0.2,0.07,0.7,500,6.3,Complete,Faster run
+10,Isolation after day 3 (20%),0.2,0.07,0.7,1000,12.6,Complete,Optional intervention variant
